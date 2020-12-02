@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using DayOne.Solvers;
 
-namespace DayOnePartOne
+namespace DayOne
 {
     public static class Program
     {
