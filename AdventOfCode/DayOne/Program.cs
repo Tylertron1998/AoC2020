@@ -1,38 +1,33 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using DayOne.Solvers;
+using AdventOfCode.Shared.Solutions;
+using DayOne.Solutions;
 
 namespace DayOne
 {
     public static class Program
     {
-        public static async Task Main(FileInfo file = null, SolverType type = SolverType.Three)
+        public static async Task Main(FileInfo file = null, Part part = Part.One)
         {
             file ??= new FileInfo("input.txt");
             
             var path = file.FullName;
             var lines = await File.ReadAllLinesAsync(path);
 
-            var solver = default(ISolver);
+            var solution = default(ISolution);
             
-            if (type == SolverType.Two)
+            if (part == Part.One)
             {
-                solver = new TwoAnswerSolver();
+                solution = new FirstSolution();
             } 
-            else if (type == SolverType.Three)
+            else if (part == Part.Two)
             {
-                solver = new ThreeAnswerSolver();
+                solution = new SecondSolution();
             }
 
-            var output = solver.Solve(lines);
-            Console.WriteLine(output);
+            var answer = solution.Solve(lines);
+            Console.WriteLine(answer);
         }
-    }
-
-    public enum SolverType
-    {
-        Two,
-        Three
     }
 }

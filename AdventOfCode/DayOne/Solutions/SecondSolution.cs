@@ -1,10 +1,11 @@
 using System.Linq;
+using AdventOfCode.Shared.Solutions;
 
-namespace DayOne.Solvers
+namespace DayOne.Solutions
 {
-    public class ThreeAnswerSolver : ISolver
+    public class SecondSolution : ISolution
     {
-        public int Solve(string[] inputs)
+        public string Solve(string[] inputs)
         {
             var values = inputs.Select(int.Parse);
             
@@ -16,7 +17,8 @@ namespace DayOne.Solvers
                     {
                         if (firstNumericValue + secondNumericValue + thirdNumericValue == 2020)
                         {
-                            return firstNumericValue * secondNumericValue * thirdNumericValue;
+                            var answer = firstNumericValue * secondNumericValue * thirdNumericValue;
+                            return answer.ToString();
                         }
                     }
                 }

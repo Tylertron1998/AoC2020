@@ -1,5 +1,10 @@
 <Project>
-  <ItemGroup>
-    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.20574.7" />
-  </ItemGroup>
+  <Choose>
+    <When Condition="$(MSBuildProjectName)!='AdventOfCode.Shared'">
+      <ItemGroup>
+        <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.20574.7" />
+        <ProjectReference Include="..\AdventOfCode.Shared\AdventOfCode.Shared.csproj" />
+      </ItemGroup>
+    </When>
+  </Choose>
 </Project>
