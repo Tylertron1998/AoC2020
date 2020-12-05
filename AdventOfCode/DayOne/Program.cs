@@ -8,23 +8,19 @@ namespace DayOne
 {
     public static class Program
     {
-        public static async Task Main(FileInfo file = null, Part part = Part.One)
+        public static async Task Main(FileInfo file = null, Part part = Part.Two)
         {
             file ??= new FileInfo("input.txt");
             
             var path = file.FullName;
             var lines = await File.ReadAllLinesAsync(path);
 
-            var solution = default(ISolution);
-            
-            if (part == Part.One)
+            var solution = part switch
             {
-                solution = new FirstSolution();
-            } 
-            else if (part == Part.Two)
-            {
-                solution = new SecondSolution();
-            }
+                Part.One => new FirstSolution(),
+                Part.Two => new SecondSolution(),
+                _ => default(ISolution)
+            };
 
             var answer = solution.Solve(lines);
             Console.WriteLine(answer);

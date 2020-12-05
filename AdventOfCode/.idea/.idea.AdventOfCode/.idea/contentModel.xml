@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_AdventOfCode.592987950.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AdventOfCode.Shared" t="IncludeRecursive">
+        <e p="AdventOfCode.Shared.csproj" t="IncludeRecursive" />
+        <e p="Solutions" t="Include">
+          <e p="ISolution.cs" t="Include" />
+          <e p="Part.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="AdventOfCode.Shared.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AdventOfCode.sln" t="IncludeFlat" />
+      <e p="DayFour" t="IncludeRecursive">
+        <e p="DayFour.csproj" t="IncludeRecursive" />
+        <e p="Parsing" t="Include">
+          <e p="Parser.cs" t="Include" />
+          <e p="Token.cs" t="Include" />
+          <e p="TokenCollection.cs" t="Include" />
+          <e p="TokenType.cs" t="Include" />
+          <e p="Tokenizer.cs" t="Include" />
+          <e p="ValidationType.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+        <e p="Utlities.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DayFour.AssemblyInfo.cs" t="Include" />
+              <e p="DayFour.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DayOne" t="IncludeRecursive">
+        <e p="DayOne.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DayOne.AssemblyInfo.cs" t="Include" />
+              <e p="DayOne.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DayThree" t="IncludeRecursive">
+        <e p="DayThree.csproj" t="IncludeRecursive" />
+        <e p="Objects" t="Include">
+          <e p="Boat.cs" t="Include" />
+          <e p="Grid.cs" t="Include" />
+          <e p="GridType.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DayThree.AssemblyInfo.cs" t="Include" />
+              <e p="DayThree.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DayTwo" t="IncludeRecursive">
+        <e p="DayTwo.csproj" t="IncludeRecursive" />
+        <e p="Parser.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DayTwo.AssemblyInfo.cs" t="Include" />
+              <e p="DayTwo.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

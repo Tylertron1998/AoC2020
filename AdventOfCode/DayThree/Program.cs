@@ -15,20 +15,15 @@ namespace DayThree
             var path = file.FullName;
             var lines = await File.ReadAllLinesAsync(path);
 
-            var solution = default(ISolution);
-
-            if (part == Part.One)
+            var solution = part switch
             {
-                solution = new FirstSolution();
-            }
-            else if (part == Part.Two)
-            {
-                solution = new SecondSolution
+                Part.One => new FirstSolution(),
+                Part.Two => new SecondSolution
                 {
-                    RightStride = new[] {1, 3, 5, 7, 1},
-                    DownStride = new[] {1, 1, 1, 1, 2}
-                };
-            }
+                    RightStride = new[] {1, 3, 5, 7, 1}, DownStride = new[] {1, 1, 1, 1, 2}
+                },
+                _ => default(ISolution)
+            };
 
             var output = solution.Solve(lines);
 
