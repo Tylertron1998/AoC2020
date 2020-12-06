@@ -1,8 +1,8 @@
 namespace DayThree.Objects
 {
-    public enum GridType
-    {
-        Empty,
-        Tree
-    }
+	public enum GridType
+	{
+		Empty,
+		Tree
+	}
 }

@@ -8,7 +8,24 @@
     <projectFile>DayFour/DayFour.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dc00832-129b-4f5e-85c8-71b4b6467442" name="Default Changelist" comment="" />
+    <list default="true" id="6dc00832-129b-4f5e-85c8-71b4b6467442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayFour/Parsing/Tokenizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFour/Parsing/Tokenizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayFour/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFour/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayFour/Solutions/FirstSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFour/Solutions/FirstSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayFour/Utlities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFour/Utlities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayOne/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayOne/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayOne/Solutions/FirstSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayOne/Solutions/FirstSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayOne/Solutions/SecondSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayOne/Solutions/SecondSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayThree/Objects/Boat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/Objects/Boat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayThree/Objects/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/Objects/Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayThree/Solutions/FirstSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/Solutions/FirstSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayThree/Solutions/SecondSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayThree/Solutions/SecondSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayTwo/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayTwo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/Solutions/FirstSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayTwo/Solutions/FirstSolution.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayTwo/Solutions/SecondSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayTwo/Solutions/SecondSolution.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +79,9 @@
       <option value="$PROJECT_DIR$/DayFour/Solutions/FirstSolution.cs" />
       <option value="$PROJECT_DIR$/DayFour/Solutions/SecondSolution.cs" />
       <option value="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" />
+      <option value="$PROJECT_DIR$/DayFour/Parsing/Token.cs" />
       <option value="$PROJECT_DIR$/DayFour/Program.cs" />
+      <option value="$PROJECT_DIR$/DayFour/Parsing/Tokenizer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l5o1yEcyAvPV2jkACEMk9CQzT8" />
@@ -173,6 +192,7 @@
       <workItem from="1606896112137" duration="9679000" />
       <workItem from="1606983383836" duration="4531000" />
       <workItem from="1607066643766" duration="18189000" />
+      <workItem from="1607229051806" duration="321000" />
     </task>
     <servers />
   </component>
@@ -196,99 +216,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>80</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="80" containingFunctionPresentation="method 'ValidateHairColorToken'">
-            <startOffsets>
-              <option value="2995" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2996" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>85</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="85" containingFunctionPresentation="method 'ValidateEyeColorToken'">
-            <startOffsets>
-              <option value="3132" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3133" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>92</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="92" containingFunctionPresentation="method 'ValidateExpirationYearToken'">
-            <startOffsets>
-              <option value="3346" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3347" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>99</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="99" containingFunctionPresentation="method 'ValidateBirthYearToken'">
-            <startOffsets>
-              <option value="3557" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3558" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>107</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="107" containingFunctionPresentation="method 'ValidateHeightToken'">
-            <startOffsets>
-              <option value="3856" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3857" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>73</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="73" containingFunctionPresentation="method 'ValidateIssueYearToken'">
-            <startOffsets>
-              <option value="2719" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2746" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFour/Parsing/Parser.cs</url>
-          <line>66</line>
-          <properties documentPath="$PROJECT_DIR$/DayFour/Parsing/Parser.cs" initialLine="66" containingFunctionPresentation="method 'ValidatePassportIDToken'">
-            <startOffsets>
-              <option value="2515" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2516" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints">
           <properties justMyCode="true" />

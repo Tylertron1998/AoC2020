@@ -1,72 +1,70 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DayFour.Parsing
 {
-    public class Tokenizer
-    {
-        public TokenCollection[] GetTokens(string[] inputs)
-        {
+	public class Tokenizer
+	{
+		public TokenCollection[] GetTokens(string[] inputs)
+		{
+			var collections = new List<TokenCollection>();
 
-            var collections = new List<TokenCollection>();
+			var collection = default(TokenCollection);
 
-            var collection = default(TokenCollection);
+			var tokens = new List<Token>();
 
-            var tokens = new List<Token>();
-            
-            for (var index = 0; index < inputs.Length; index++)
-            {
-                var input = inputs[index];
+			for (var index = 0; index < inputs.Length; index++)
+			{
+				var input = inputs[index];
 
-                if (string.IsNullOrWhiteSpace(input))
-                {
-                    collection.Tokens = tokens.ToArray();
-                    collections.Add(collection);
-                    collection = default;
-                    tokens = new List<Token>();
-                    continue;
-                }
+				if (string.IsNullOrWhiteSpace(input))
+				{
+					collection.Tokens = tokens.ToArray();
+					collections.Add(collection);
+					collection = default;
+					tokens = new List<Token>();
+					continue;
+				}
 
-                var split = input.Split(' ');
+				var split = input.Split(' ');
 
-                foreach (var individualToken in split)
-                {
-                    var token = default(Token);
-                    var i = individualToken.IndexOf(':');
+				foreach (var individualToken in split)
+				{
+					var token = default(Token);
+					var i = individualToken.IndexOf(':');
 
-                    if (i == -1)
-                    {
-                        throw new ArgumentException(
-                            $"{nameof(individualToken)} had no ':' seperator; value was: '{individualToken}'");
-                    }
+					if (i == -1)
+					{
+						throw new ArgumentException(
+							$"{nameof(individualToken)} had no ':' seperator; value was: '{individualToken}'");
+					}
 
-                    var lhs = individualToken[..i];
-                    var rhs = individualToken[(i + 1)..];
-                    
-                    token.RawValue = rhs;
+					var lhs = individualToken[..i];
+					var rhs = individualToken[(i + 1)..];
 
-                    token.Type = lhs switch
-                    {
-                        "byr" => TokenType.BirthYear,
-                        "iyr" => TokenType.IssueYear,
-                        "eyr" => TokenType.ExpirationYear,
-                        "hgt" => TokenType.Height,
-                        "hcl" => TokenType.HairColor,
-                        "ecl" => TokenType.EyeColor,
-                        "pid" => TokenType.PassportID,
-                        "cid" => TokenType.CountryID,
-                        _ => throw new ArgumentException($"{nameof(lhs)} was unexpected value; got: {lhs}")
-                    };
+					token.RawValue = rhs;
 
-                    tokens.Add(token);
-                }
-            }
+					token.Type = lhs switch
+					{
+						"byr" => TokenType.BirthYear,
+						"iyr" => TokenType.IssueYear,
+						"eyr" => TokenType.ExpirationYear,
+						"hgt" => TokenType.Height,
+						"hcl" => TokenType.HairColor,
+						"ecl" => TokenType.EyeColor,
+						"pid" => TokenType.PassportID,
+						"cid" => TokenType.CountryID,
+						_ => throw new ArgumentException($"{nameof(lhs)} was unexpected value; got: {lhs}")
+					};
 
-            collection.Tokens = tokens.ToArray();
-            collections.Add(collection);
+					tokens.Add(token);
+				}
+			}
 
-            return collections.ToArray();
-        }
-    }
+			collection.Tokens = tokens.ToArray();
+			collections.Add(collection);
+
+			return collections.ToArray();
+		}
+	}
 }

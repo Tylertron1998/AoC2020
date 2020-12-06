@@ -6,24 +6,24 @@ using DayOne.Solutions;
 
 namespace DayOne
 {
-    public static class Program
-    {
-        public static async Task Main(FileInfo file = null, Part part = Part.Two)
-        {
-            file ??= new FileInfo("input.txt");
-            
-            var path = file.FullName;
-            var lines = await File.ReadAllLinesAsync(path);
+	public static class Program
+	{
+		public static async Task Main(FileInfo file = null, Part part = Part.Two)
+		{
+			file ??= new FileInfo("input.txt");
 
-            var solution = part switch
-            {
-                Part.One => new FirstSolution(),
-                Part.Two => new SecondSolution(),
-                _ => default(ISolution)
-            };
+			var path = file.FullName;
+			var lines = await File.ReadAllLinesAsync(path);
 
-            var answer = solution.Solve(lines);
-            Console.WriteLine(answer);
-        }
-    }
+			var solution = part switch
+			{
+				Part.One => new FirstSolution(),
+				Part.Two => new SecondSolution(),
+				_ => default(ISolution)
+			};
+
+			var answer = solution.Solve(lines);
+			Console.WriteLine(answer);
+		}
+	}
 }
