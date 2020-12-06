@@ -1,6 +1,4 @@
-using System;
-
-namespace DayFour.Objects
+namespace DayFour.Parsing
 {
     public enum TokenType
     {

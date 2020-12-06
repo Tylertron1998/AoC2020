@@ -1,4 +1,4 @@
-namespace DayFour.Objects
+namespace DayFour.Parsing
 {
     public struct TokenCollection
     {

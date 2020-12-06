@@ -1,15 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.CommandLine.Parsing;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using DayFour.Objects;
-using DayFour.Parsing;
-using Token = DayFour.Objects.Token;
-using TokenType = DayFour.Objects.TokenType;
+using Token = DayFour.Parsing.Token;
+using TokenType = DayFour.Parsing.TokenType;
 
-namespace DayFour
+namespace DayFour.Parsing
 {
     public class Parser
     {
@@ -118,8 +114,8 @@ namespace DayFour
 
                 return match.Value switch
                 {
-                    "cm" => number > 150 && number < 193,
-                    "in" => number > 59 && number < 76,
+                    "cm" => number >= 150 && number <= 193,
+                    "in" => number >= 59 && number <= 76,
                     _ => false
                 };
             }

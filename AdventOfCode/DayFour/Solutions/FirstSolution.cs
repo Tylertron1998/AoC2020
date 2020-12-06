@@ -2,8 +2,9 @@ using System;
 using System.CommandLine.Parsing;
 using System.Linq;
 using AdventOfCode.Shared.Solutions;
-using Token = DayFour.Objects.Token;
-using TokenType = DayFour.Objects.TokenType;
+using Parser = DayFour.Parsing.Parser;
+using Token = DayFour.Parsing.Token;
+using TokenType = DayFour.Parsing.TokenType;
 
 namespace DayFour.Solutions
 {

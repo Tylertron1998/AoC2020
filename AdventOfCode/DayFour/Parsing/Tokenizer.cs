@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DayFour.Objects;
 
-namespace DayFour
+namespace DayFour.Parsing
 {
     public class Tokenizer
     {
@@ -13,21 +12,18 @@ namespace DayFour
             var collections = new List<TokenCollection>();
 
             var collection = default(TokenCollection);
-            var sb = new StringBuilder();
-            
+
             var tokens = new List<Token>();
             
             for (var index = 0; index < inputs.Length; index++)
             {
                 var input = inputs[index];
-                sb.AppendLine(input);
 
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     collection.Tokens = tokens.ToArray();
                     collections.Add(collection);
                     collection = default;
-                    sb = new StringBuilder();
                     tokens = new List<Token>();
                     continue;
                 }
@@ -47,56 +43,24 @@ namespace DayFour
 
                     var lhs = individualToken[..i];
                     var rhs = individualToken[(i + 1)..];
+                    
                     token.RawValue = rhs;
 
-                    switch (lhs)
+                    token.Type = lhs switch
                     {
-                        case "byr":
-                        {
-                            token.Type = TokenType.BirthYear;
-                            break;
-                        }
-                        case "iyr":
-                        {
-                            token.Type = TokenType.IssueYear;
-                            break;
-                        }
-                        case "eyr":
-                        {
-                            token.Type = TokenType.ExpirationYear;
-                            break;
-                        }
-                        case "hgt":
-                        {
-                            token.Type = TokenType.Height;
-                            break;
-                        }
-                        case "hcl":
-                        {
-                            token.Type = TokenType.HairColor;
-                            break;
-                        }
-                        case "ecl":
-                        {
-                            token.Type = TokenType.EyeColor;
-                            break;
-                        }
-                        case "pid":
-                        {
-                            token.Type = TokenType.PassportID;
-                            break;
-                        }
-                        case "cid":
-                        {
-                            token.Type = TokenType.CountryID;
-                            break;
-                        }
-                        default: throw new ArgumentException($"{nameof(lhs)} was unexpected value; got: {lhs}");
-                    }
-                    
+                        "byr" => TokenType.BirthYear,
+                        "iyr" => TokenType.IssueYear,
+                        "eyr" => TokenType.ExpirationYear,
+                        "hgt" => TokenType.Height,
+                        "hcl" => TokenType.HairColor,
+                        "ecl" => TokenType.EyeColor,
+                        "pid" => TokenType.PassportID,
+                        "cid" => TokenType.CountryID,
+                        _ => throw new ArgumentException($"{nameof(lhs)} was unexpected value; got: {lhs}")
+                    };
+
                     tokens.Add(token);
                 }
-                collection.RawValue = sb.ToString();
             }
 
             collection.Tokens = tokens.ToArray();
