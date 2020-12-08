@@ -20,6 +20,26 @@
         </e>
       </e>
       <e p="AdventOfCode.sln" t="IncludeFlat" />
+      <e p="DayFive" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DayFive.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DayFive.AssemblyInfo.cs" t="Include" />
+              <e p="DayFive.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Parsing" t="Include">
+          <e p="TicketParser.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+      </e>
       <e p="DayFour" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayFour.csproj" t="IncludeRecursive" />

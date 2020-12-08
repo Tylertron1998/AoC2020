@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayThree", "DayThree\DayThr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayFour", "DayFour\DayFour.csproj", "{76CD9BAA-9847-4846-83A6-D5521BA4F900}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayFive", "DayFive\DayFive.csproj", "{A222F78D-00E1-4212-AA8A-82CCF26A7525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{76CD9BAA-9847-4846-83A6-D5521BA4F900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76CD9BAA-9847-4846-83A6-D5521BA4F900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76CD9BAA-9847-4846-83A6-D5521BA4F900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A222F78D-00E1-4212-AA8A-82CCF26A7525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A222F78D-00E1-4212-AA8A-82CCF26A7525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A222F78D-00E1-4212-AA8A-82CCF26A7525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A222F78D-00E1-4212-AA8A-82CCF26A7525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
