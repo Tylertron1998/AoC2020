@@ -8,7 +8,7 @@
         <e p="AdventOfCode.Shared.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="AdventOfCode.Shared.AssemblyInfo.cs" t="Include" />
             </e>
@@ -24,7 +24,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayFive.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="DayFive.AssemblyInfo.cs" t="Include" />
               <e p="DayFive.Program.g.cs" t="Include" />
@@ -44,7 +44,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayFour.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="DayFour.AssemblyInfo.cs" t="Include" />
               <e p="DayFour.Program.g.cs" t="Include" />
@@ -70,10 +70,27 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayOne.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="DayOne.AssemblyInfo.cs" t="Include" />
               <e p="DayOne.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DaySix" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DaySix.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DaySix.AssemblyInfo.cs" t="Include" />
+              <e p="DaySix.Program.g.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -87,7 +104,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayThree.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="DayThree.AssemblyInfo.cs" t="Include" />
               <e p="DayThree.Program.g.cs" t="Include" />
@@ -109,7 +126,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DayTwo.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Release" t="Include">
+          <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
               <e p="DayTwo.AssemblyInfo.cs" t="Include" />
               <e p="DayTwo.Program.g.cs" t="Include" />
