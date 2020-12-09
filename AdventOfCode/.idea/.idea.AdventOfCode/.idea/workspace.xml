@@ -10,14 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc00832-129b-4f5e-85c8-71b4b6467442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DayFive/DayFive.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DayFive/Parsing/TicketParser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DayFive/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DayFive/Solutions/FirstSolution.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DayFive/Solutions/SecondSolution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayFive/Solutions/SecondSolution.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DayFive/Solutions/SecondSolution.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +206,7 @@
       <workItem from="1606983383836" duration="4531000" />
       <workItem from="1607066643766" duration="18189000" />
       <workItem from="1607229051806" duration="4611000" />
+      <workItem from="1607505890239" duration="1744000" />
     </task>
     <servers />
   </component>
@@ -234,21 +230,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DayFive/Solutions/SecondSolution.cs</url>
-          <line>31</line>
-          <properties documentPath="C:\Users\sirbr\Documents\coding\projects\C#\AoC2020\AdventOfCode\DayFive\Solutions\SecondSolution.cs" initialLine="31" containingFunctionPresentation="method 'Solve'">
-            <startOffsets>
-              <option value="607" />
-            </startOffsets>
-            <endOffsets>
-              <option value="621" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints">
           <properties justMyCode="true" />
