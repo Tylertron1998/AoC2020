@@ -83,6 +83,23 @@
           <e p="SecondSolution.cs" t="Include" />
         </e>
       </e>
+      <e p="DaySeven" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DaySeven.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="DaySeven.AssemblyInfo.cs" t="Include" />
+              <e p="DaySeven.Program.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Solutions" t="Include">
+          <e p="FirstSolution.cs" t="Include" />
+          <e p="SecondSolution.cs" t="Include" />
+        </e>
+      </e>
       <e p="DaySix" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DaySix.csproj" t="IncludeRecursive" />

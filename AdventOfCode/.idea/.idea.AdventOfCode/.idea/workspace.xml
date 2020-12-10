@@ -8,13 +8,14 @@
     <projectFile>DayFour/DayFour.csproj</projectFile>
     <projectFile>DayFive/DayFive.csproj</projectFile>
     <projectFile>DaySix/DaySix.csproj</projectFile>
+    <projectFile>DaySeven/DaySeven.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc00832-129b-4f5e-85c8-71b4b6467442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DaySix/DaySix.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaySix/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaySix/Solutions/FirstSolution.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DaySix/Solutions/SecondSolution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaySeven/DaySeven.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaySeven/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaySeven/Solutions/FirstSolution.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DaySeven/Solutions/SecondSolution.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
@@ -34,9 +35,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/DayOnePartTwo/Program.cs" />
-      <option value="$PROJECT_DIR$/DayOne/Solvers/ISolver.cs" />
-      <option value="$PROJECT_DIR$/DayOne/Solvers/TwoAwnserSolver.cs" />
       <option value="$PROJECT_DIR$/AdventOfCode.Shared/Class1.cs" />
       <option value="$PROJECT_DIR$/AdventOfCode.Shared/Solvers/ThreeAnswerSolver.cs" />
       <option value="$PROJECT_DIR$/DayOne/DayOne.csproj" />
@@ -85,6 +83,9 @@
       <option value="$PROJECT_DIR$/DaySix/Solutions/FirstSolution.cs" />
       <option value="$PROJECT_DIR$/DaySix/Solutions/SecondSolution.cs" />
       <option value="$PROJECT_DIR$/DaySix/Program.cs" />
+      <option value="$PROJECT_DIR$/DaySeven/Solutions/FirstSolution.cs" />
+      <option value="$PROJECT_DIR$/DaySeven/Solutions/SecondSolution.cs" />
+      <option value="$PROJECT_DIR$/DaySeven/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l5o1yEcyAvPV2jkACEMk9CQzT8" />
@@ -159,6 +160,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="DaySeven" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DaySeven/DaySeven.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="DaySix" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -220,6 +239,7 @@
       <item itemvalue=".NET Project.DayFour" />
       <item itemvalue=".NET Project.DayFive" />
       <item itemvalue=".NET Project.DaySix" />
+      <item itemvalue=".NET Project.DaySeven" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -234,7 +254,7 @@
       <workItem from="1606983383836" duration="4531000" />
       <workItem from="1607066643766" duration="18189000" />
       <workItem from="1607229051806" duration="4611000" />
-      <workItem from="1607505890239" duration="3657000" />
+      <workItem from="1607505890239" duration="3872000" />
     </task>
     <servers />
   </component>
